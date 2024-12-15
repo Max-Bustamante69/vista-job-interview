@@ -73,24 +73,12 @@ Ensure you have the following installed:
 
 
 ## How to Run the Project
-1. **Development Mode**: Use the following command:
+   **Development Mode**: Use the following command:
    ```bash
    npm run dev
    ```
    - The project will run locally on `http://localhost:3000`.
 
-2. **Build and Start**: For production, build and start the project:
-   ```bash
-   npm run build
-   npm start
-   ```
-   - The optimized build will be served.
-
-3. **Linting**:
-   ```bash
-   npm run lint
-   ```
-   - Ensures code follows the linting rules.
 
 ---
 
@@ -134,8 +122,8 @@ Some additional features that could be implemented:
 
 ## Author
 **Sebastian Correa Morales**
-- [GitHub](https://github.com/sebastian-cm)
-- [LinkedIn](https://linkedin.com/in/sebastian-correa-morales)
+- [GitHub](https://github.com/correasebastian/vista-techincal-test.git)
+- [LinkedIn](https://www.linkedin.com/in/elkykelyn/)
 
 ---
 
