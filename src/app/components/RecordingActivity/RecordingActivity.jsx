@@ -31,8 +31,8 @@ function Activity() {
   };
 
   const handleSubmit = (event) => {
-    event.preventDefault();
     // Submit logic here
+    
   };
 
   return (
