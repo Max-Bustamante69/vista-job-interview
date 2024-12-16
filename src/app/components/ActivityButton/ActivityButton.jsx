@@ -5,6 +5,7 @@ function ActivityButton({
   onClick,
   disabled = false,
   isActive = false,
+  name='',
   className = "",
   label = "",
 }) {
@@ -18,6 +19,7 @@ function ActivityButton({
           }`}
           onClick={onClick}
           disabled={disabled}
+          aria-label={`${name}-button`}
         >
           {icon}
         </button>

@@ -37,17 +37,19 @@ function Activity() {
 
   return (
     <div className="card">
-      <h3>Say the vocabulary words.</h3>
+      <h2>Say the vocabulary words.</h2>
       <div className={styles.recordingContainer}>
         <div className={styles.buttonContainer}>
           <ActivityButton
             className={styles.stopButton}
+            name="stop"
             onClick={() => handleButtonClick("stop")}
             label="Stop"
             icon={<CiStop1 />}
           />
           <ActivityButton
             isActive={status === "record"}
+            name="record"
             className={styles.recordButton}
             onClick={() => handleButtonClick("record")}
             label="Record"
@@ -55,6 +57,7 @@ function Activity() {
           />
           <ActivityButton
             isActive={status === "play"}
+            name="play"
             className={styles.playButton}
             onClick={() => handleButtonClick("play")}
             label="Review your recording"
